@@ -3,4 +3,4 @@
 4 manipulations
 2 basic terminal operations
 2 basic terminal operations
-2 basic terminal operations
+
