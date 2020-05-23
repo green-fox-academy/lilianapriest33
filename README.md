@@ -10,5 +10,5 @@ My other (test) repositories:
 
 [patchwork](https://github.com/lilianapriest33/patchwork.git "patchwork")
 
-
+[This is my syllabus repository] (https://github.com/green-fox-academy/lilianapriest33.git "This is my syllabus repository")
 
