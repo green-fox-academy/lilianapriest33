@@ -7,13 +7,13 @@ public class VariableMutation {
         a = a + 10;
         System.out.println(a);
 
-        int b = 100;
+        int b = 50;
         // make b smaller by 7
         b = b - 7;
 
         System.out.println(b);
 
-        int c = 44;
+        int c = 54;
         // please double c's value
         c = c * 2;
 

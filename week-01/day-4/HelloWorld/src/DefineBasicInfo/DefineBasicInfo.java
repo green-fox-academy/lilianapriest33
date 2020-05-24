@@ -4,7 +4,7 @@ public class DefineBasicInfo {
     public static void main(String[] args) {
         // Define several things as a variable then print their values
         // Your name as a string
-        System.out.println("My name is: " + "Viki");
+        System.out.println("My name is: Viki");
         // Your age as an integer
         System.out.println("My age is: " + 32);
         // Your height in meters as a double

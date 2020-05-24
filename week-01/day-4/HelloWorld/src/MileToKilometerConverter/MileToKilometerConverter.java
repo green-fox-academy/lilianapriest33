@@ -7,8 +7,8 @@ public class MileToKilometerConverter {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter miles: ");
-        float userinp = scanner.nextFloat();
+        float userinput = scanner.nextFloat();
 
-        System.out.println(userinp+" miles = "+(userinp*1.609344)+" kilometres");
+        System.out.println(userinput+" miles = "+(userinput*1.609344)+" kilometres");
     }
 }
