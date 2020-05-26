@@ -6,7 +6,7 @@ public class AppendA {
 
         System.out.println(appendAFunction(typo));
     }
-    private static String appendAFunction (String a){
+    public static String appendAFunction (String a){
         return a +"a";
     }
 }
