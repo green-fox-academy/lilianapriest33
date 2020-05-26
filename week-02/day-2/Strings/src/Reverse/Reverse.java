@@ -12,7 +12,6 @@ public class Reverse {
 
         System.out.println(reverse);
     }
-
 }
 
 // Create a method that can reverse a String, which is passed as the parameter
