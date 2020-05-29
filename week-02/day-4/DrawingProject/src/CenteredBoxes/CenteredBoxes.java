@@ -1,34 +1,26 @@
-package HorizontalLines;
+package CenteredBoxes;
 
 import javax.swing.*;
 import java.awt.*;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class HorizontalLines {
-    public static void mainDraw(Graphics graphics) {
+public class CenteredBoxes {
 
-        int x= 230;
-        int y = 195;
-        // horizontalLine(x, y, graphics);
+    public static void mainDraw(Graphics graphics){
+        int[] x = {50 , 150 , 250};
 
-        for (int i = 0; i < 5; i++) {
-            horizontalLine(x, y, graphics);
-            y = y+50;
+        for (int i = 0; i < x.length ; i++) {
+            drawSquare(x[i],graphics);
         }
-
-        // Create a function that draws a single line and takes 3 parameters:
-        // The x and y coordinates of the line's starting point and the graphics
-        // and draws a 50 long horizontal line from that point.
-        // Draw at least 3 lines with that function using a loop.
-
     }
-    public static void horizontalLine (int x, int y, Graphics g) {
-        g.drawLine(x, y, x+190, y);
+
+    public  static void drawSquare( int x, Graphics graphics) {
+        graphics.drawRect((WIDTH / 2) - (x / 2), (HEIGHT / 2) - (x / 2), x, x);
     }
 
     // Don't touch the code below
-    static int WIDTH = 500;
-    static int HEIGHT = 500;
+    static int WIDTH = 320;
+    static int HEIGHT = 320;
 
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Drawing");

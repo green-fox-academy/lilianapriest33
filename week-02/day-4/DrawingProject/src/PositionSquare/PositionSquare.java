@@ -1,34 +1,29 @@
-package HorizontalLines;
+package PositionSquare;
 
 import javax.swing.*;
 import java.awt.*;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class HorizontalLines {
-    public static void mainDraw(Graphics graphics) {
+public class PositionSquare {
+    public static void mainDraw(Graphics graphics){
 
-        int x= 230;
-        int y = 195;
-        // horizontalLine(x, y, graphics);
+        int x= 50;
+        int y = 50;
+        // square (x, y, graphics);
 
-        for (int i = 0; i < 5; i++) {
-            horizontalLine(x, y, graphics);
-            y = y+50;
+        for (int i = 0; i < 3; i++) {
+            square(x, y, graphics);
+            y = y+60;
+            x = x+60;
         }
-
-        // Create a function that draws a single line and takes 3 parameters:
-        // The x and y coordinates of the line's starting point and the graphics
-        // and draws a 50 long horizontal line from that point.
-        // Draw at least 3 lines with that function using a loop.
-
     }
-    public static void horizontalLine (int x, int y, Graphics g) {
-        g.drawLine(x, y, x+190, y);
+    public static void square (int x, int y, Graphics g) {
+        g.drawRect(x, y, 50, 50);
     }
 
     // Don't touch the code below
-    static int WIDTH = 500;
-    static int HEIGHT = 500;
+    static int WIDTH = 320;
+    static int HEIGHT = 320;
 
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("Drawing");
@@ -48,4 +43,5 @@ public class HorizontalLines {
             mainDraw(graphics);
         }
     }
+
 }
