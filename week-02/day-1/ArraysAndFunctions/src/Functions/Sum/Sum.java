@@ -1,24 +1,16 @@
 package Functions.Sum;
 
-import java.util.Scanner;
-
 public class Sum {
-    public static void main (String[]args){
-
-        Scanner sum = new Scanner(System.in);
-
-        System.out.println("Please enter a number: ");
-
-        int number = sum.nextInt();
-
-        System.out.println("Sum of numbers from 0 to " + number + ": " + sum(number));
+    public static void main(String[] args) {
+        System.out.println(sum(6));
     }
-    public static int sum(int d){
-        int c = 0;
-        for (int i =0; i <= d; i++){
-            c += i;
+
+    public static int sum(int until) {
+        int sumOfNumbers = 0;
+        for (int i = 0; i < until; i++) {
+            sumOfNumbers += i;
         }
-        return c;
+        return sumOfNumbers;
     }
 }
 
