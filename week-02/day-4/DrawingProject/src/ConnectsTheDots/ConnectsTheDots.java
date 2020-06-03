@@ -1,4 +1,4 @@
-package ConnectsTheDots;
+/*package ConnectsTheDots;
 
 import javax.swing.*;
 import java.awt.*;
@@ -37,4 +37,4 @@ public class ConnectsTheDots {
             mainDraw(graphics);
         }
     }
-}
+}*/

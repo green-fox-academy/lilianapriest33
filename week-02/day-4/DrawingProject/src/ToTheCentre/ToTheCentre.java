@@ -7,10 +7,10 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class ToTheCentre {
     public static void mainDraw(Graphics graphics) {
 
-        int x = 35;
+        int x = 5;
         int y = 25;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 15; i++) {
             goToCenter(x, y, graphics);
             x = x+35;
         }

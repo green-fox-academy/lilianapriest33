@@ -26,7 +26,7 @@ public class Map1 {
         map1.remove(97);
 
         boolean mapX = (map1.containsKey(100));
-            System.out.println( mapX == true ? "Map contains key ["+100+"]" : "There isn't an associated value with key 100");
+            System.out.println(mapX == true ? "Map contains key ["+100+"]" : "There isn't an associated value with key 100");
 
         map1.clear();
             System.out.println(map0);

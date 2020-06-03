@@ -5,6 +5,7 @@ import java.util.Collections;
 
 public class PersonalFinance {
     public static void main(String[] args) {
+
         ArrayList<Integer> items = new ArrayList<>();
         items.add(500);
         items.add(1000);
@@ -16,10 +17,12 @@ public class PersonalFinance {
         int total = 0;
         int greatestExpense = 0;
         int cheapestSpending = 0;
+
         for (int i = 0; i < items.size(); i++) {
             total += items.get(i);
         }
         int average = total / items.size();
+
         Collections.sort(items);
         greatestExpense = items.get(items.size()-1);
         cheapestSpending = items.get(0);

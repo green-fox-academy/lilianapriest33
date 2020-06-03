@@ -4,10 +4,13 @@ import java.util.ArrayList;
 
 public class ListIntroduction1 {
     public static void main(String[]args){
+
         ArrayList<String> list1 = new ArrayList<String>();
             System.out.println(list1.size());
+
         list1.add("William");
             System.out.println(list1.isEmpty());
+
         list1.add("John");
         list1.add("Amanda");
             System.out.println(list1.size());

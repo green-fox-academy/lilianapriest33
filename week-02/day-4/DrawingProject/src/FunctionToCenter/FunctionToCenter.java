@@ -7,9 +7,9 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class FunctionToCenter {
     public static void mainDraw(Graphics graphics) {
-        Random random = new Random();
 
-        int a = 1;
+        Random random = new Random();
+        int a = 40;
         for (int i = 0; i <= 320; i+=a) {
             for (int j = 0; j <= 320; j+=a) {
                 int r = random.nextInt(256);
@@ -18,15 +18,12 @@ public class FunctionToCenter {
                 graphics.setColor(new Color(r, g, b));
 
                 if (i==0||j==0||i==320||j==320)
-                    drawLineC(i,j,graphics);
-
+                    drawLine(i,j,graphics);
             }
         }
     }
 
-    public static void drawLineC(int x, int y, Graphics graphics){
-
-
+    public static void drawLine (int x, int y, Graphics graphics){
         graphics.drawLine(x,y,320/2,320/2);
     }
 

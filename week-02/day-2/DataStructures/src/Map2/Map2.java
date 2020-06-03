@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class Map2 {
     public static void main(String[] args) {
+
         HashMap<String, String> map2 = new HashMap<>();
 
         map2.put("978-1-60309-452-8", "A Letter to Jo");
@@ -21,6 +22,7 @@ public class Map2 {
         map2.put("978-1-60309-453-5", "Why Did We Trust Him?");
 
         boolean mapX = (map2.containsKey("478-0-61159-424-8"));
+
             System.out.println( mapX == true ? "Map contains key ["+"478-0-61159-424-8"+"]" : "There isn't an associated value with key 478-0-61159-424-8");
 
             System.out.println(map2.get("978-1-60309-453-5"));

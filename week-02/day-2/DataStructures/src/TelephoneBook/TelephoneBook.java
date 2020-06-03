@@ -6,6 +6,7 @@ import java.util.Objects;
 
 public class TelephoneBook {
     public static void main(String[] args) {
+
         HashMap<String, String> book = new HashMap<>();
 
         book.put("William A. Lathan", "405-709-1865");

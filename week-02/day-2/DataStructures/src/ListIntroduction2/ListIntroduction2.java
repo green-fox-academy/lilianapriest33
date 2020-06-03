@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class ListIntroduction2 {
     public static void main(String[]args){
+
         ArrayList<String> listA = new ArrayList<>();
             listA.add("Apple");
             listA.add("Avocado");
@@ -18,9 +19,11 @@ public class ListIntroduction2 {
 
             listB.remove("Durian");
             listA.add(4,"Kiwifruit");
+
         System.out.println("ListA containts "+listA.size()+", listB contains "+listB.size()+" elements.");
         System.out.println(listA.indexOf("Avocado"));
         System.out.println(listB.indexOf("Durian"));
+
         listB.add("Passion Fruit and Pomelo");
         System.out.println(listA.get(2));
     }
