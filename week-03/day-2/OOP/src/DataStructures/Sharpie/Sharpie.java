@@ -1,22 +1,23 @@
-//package DataStructures.Sharpie;
+package DataStructures.Sharpie;
 
-//public class Sharpie {
+public class Sharpie<inkAmount> {
 
-    //String color;
-    //float width;
-    //float inkAmount;
+    private String color;
+    private float width;
+    private float inkAmount;
 
-//}
+    public Sharpie(String color, float width, float inkAmount) {
+        this.color = color;
+        this.width = width;
+        this.inkAmount = inkAmount;
+    }
 
+    public void use() {     //decreasing ink amount by 1
+        this.inkAmount -= 1;
+        System.out.println("Decreasing ink amount by 1");
+    }
 
-
-
-
-
-
-/*Create Sharpie class
-We should know about each sharpie their color (which should be a string), width (which will be a floating point number), inkAmount (another floating point number)
-When creating one, we need to specify the color and the width
-Every sharpie is created with a default 100 as inkAmount
-We can use() the sharpie objects
-which decreases inkAmount*/
+    public void get() {      //current ink amount
+        System.out.println("The current ink amount is : " + inkAmount);
+    }
+}
