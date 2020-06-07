@@ -1,6 +1,4 @@
-package DataStructures.TeachersStudents;
-
-import DataStructures.Counter.Counter;
+package Exercises.TeachersStudents;
 
 public class Main {
     public static void main(String[] args) {

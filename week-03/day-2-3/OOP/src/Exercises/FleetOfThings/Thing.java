@@ -1,4 +1,4 @@
-package DataStructures.FleetOfThings;
+package Exercises.FleetOfThings;
 
 public class Thing {
     private String name;

@@ -1,4 +1,4 @@
-package DataStructures.Counter;
+package Exercises.Counter;
 
 public class Main {
     public static void main(String[] args) {

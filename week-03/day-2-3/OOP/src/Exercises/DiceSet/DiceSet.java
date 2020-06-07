@@ -1,4 +1,4 @@
-package DataStructures.DiceSet;
+package Exercises.DiceSet;
 
 import java.util.ArrayList;
 import java.util.List;

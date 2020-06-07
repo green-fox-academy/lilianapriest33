@@ -1,4 +1,4 @@
-package DataStructures.TeachersStudents;
+package Exercises.TeachersStudents;
 
 public class Teacher {
     private String teacher;

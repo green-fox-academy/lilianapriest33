@@ -1,4 +1,4 @@
-package DataStructures.Pokemon;
+package Exercises.Pokemon;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package DataStructures.Sharpie;
+package Exercises.Sharpie;
 
-public class Sharpie<inkAmount> {
+public class Sharpie {
 
     private String color;
     private float width;

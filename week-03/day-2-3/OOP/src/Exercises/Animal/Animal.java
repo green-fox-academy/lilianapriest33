@@ -1,4 +1,4 @@
-package DataStructures.Animal;
+package Exercises.Animal;
 
 public class Animal {
     private int hunger;

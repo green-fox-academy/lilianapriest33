@@ -1,9 +1,9 @@
-/*package DataStructures.Counter;
+/*package Exercises.Counter;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class CounterTest {
+public class CounterTest {
 
     Counter c = new Counter();
 

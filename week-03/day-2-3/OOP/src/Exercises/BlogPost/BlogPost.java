@@ -1,4 +1,4 @@
-package DataStructures.BlogPost;
+package Exercises.BlogPost;
 
 public class BlogPost {
 

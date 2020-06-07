@@ -1,4 +1,4 @@
-package DataStructures.FleetOfThings;
+package Exercises.FleetOfThings;
 
 import java.util.ArrayList;
 

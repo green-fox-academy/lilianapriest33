@@ -1,4 +1,4 @@
-package DataStructures.PostIt;
+package Exercises.PostIt;
 
 public class Main {
     public static void main(String[] args) {

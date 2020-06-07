@@ -1,4 +1,4 @@
-package DataStructures.AnimalTwo;
+package Exercises.AnimalTwo;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DataStructures.PetrolStat;
+package Exercises.PetrolStat;
 
 public class Car {
 

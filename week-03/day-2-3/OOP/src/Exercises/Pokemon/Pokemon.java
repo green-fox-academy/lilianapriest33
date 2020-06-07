@@ -1,4 +1,4 @@
-package DataStructures.Pokemon;
+package Exercises.Pokemon;
 
 public class Pokemon {
     String name;
