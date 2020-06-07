@@ -15,7 +15,7 @@ public class Pirate {
         return rumAmount;
     }
 
-    public String howsItIsGoingMate() {
+    public void howsItIsGoingMate() {
         if (rumAmount <= 4) {
             System.out.println("Pur me anudder!");
         } else {

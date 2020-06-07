@@ -13,7 +13,5 @@ public class Main {
         pirate.drinkSomeRum();
         pirate.drinkSomeRum();
         pirate.howsItIsGoingMate();
-
-
    }
 }
