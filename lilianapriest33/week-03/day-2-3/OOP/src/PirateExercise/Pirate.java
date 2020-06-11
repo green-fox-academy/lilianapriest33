@@ -15,22 +15,6 @@ public class Pirate {
         dead = false;
     }
 
-    public String getName() {
-        return this.name;
-    }
-
-    public int getRumAmount() {
-        return this.rumAmount;
-    }
-
-    public boolean isDead() {
-        return dead;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public void drinkSomeRum() {
         if (dead){
             System.out.println("He's dead");
