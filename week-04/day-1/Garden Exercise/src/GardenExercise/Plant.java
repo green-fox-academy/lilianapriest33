@@ -9,9 +9,11 @@ public class Plant {
         this.waterAmount = waterAmount;
     }
 
-    public void water(double waterAmount);
+    public void water(double waterAmount) {
 
     }
+
+}
 }
 
 

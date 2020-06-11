@@ -9,7 +9,6 @@ public class Reverse {
             reverse = reverse + toBeReversed.charAt(i);
         }
         reverse = reverse.toString();
-
         System.out.println(reverse);
     }
 }
