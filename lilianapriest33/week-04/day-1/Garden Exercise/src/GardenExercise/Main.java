@@ -24,5 +24,6 @@ public class Main {
         myGarden.addWater((double) 70);
 
         myGarden.waterStatus();
+        
     }
 }
