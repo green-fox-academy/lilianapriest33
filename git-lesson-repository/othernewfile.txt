@@ -1,0 +1,2 @@
+This is what I echoed to this new file
+And also this line
