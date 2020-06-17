@@ -1,4 +1,4 @@
-import java.awt.*;
+/*import java.awt.*;
 
 public class Hero {
     private int heroX;
@@ -122,3 +122,4 @@ public class Hero {
         this.heroLeft = heroLeft;
     }
 }
+*/
