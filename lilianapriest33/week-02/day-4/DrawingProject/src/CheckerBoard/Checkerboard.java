@@ -44,8 +44,6 @@ public class Checkerboard {
         protected void paintComponent(Graphics graphics) {
             super.paintComponent(graphics);
             mainDraw(graphics);
-
-            this.setBackground(Color.PINK);
         }
     }
 }
