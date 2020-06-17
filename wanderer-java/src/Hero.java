@@ -1,4 +1,5 @@
-/*import java.awt.*;
+import java.awt.*;
+import java.util.HashMap;
 
 public class Hero {
     private int heroX;
@@ -14,7 +15,6 @@ public class Hero {
         heroX = 0;
         heroY = 0;
         heroPos = new PositionedImage(currentProfile, heroX, heroY);
-//    heroPos.draw(graphics);
     }
 
     public void currentPosition(Graphics graphics) {
@@ -25,7 +25,6 @@ public class Hero {
         heroPos.draw(graphics);
     }
 
-
     public void moveUp(Graphics graphics) {
         if (heroY != 0) {
             heroY -= 720 / 10;
@@ -33,7 +32,6 @@ public class Hero {
             heroY -= 0;
         }
         this.currentProfile = heroUp;
-
     }
 
     public void moveDown(Graphics graphics) {
@@ -43,7 +41,6 @@ public class Hero {
             heroY += 0;
         }
         this.currentProfile = heroDown;
-
     }
 
     public void moveRight(Graphics graphics) {
@@ -53,17 +50,15 @@ public class Hero {
             heroX += 0;
         }
         this.currentProfile = heroRight;
-
     }
 
-    public void moveLef(Graphics graphics) {
+    public void moveLeft(Graphics graphics) {
         if (heroX != 0) {
             heroX -= 720 / 10;
         } else {
             heroX -= 0;
         }
         this.currentProfile = heroLeft;
-
     }
 
     public int getHeroX() {
@@ -85,41 +80,4 @@ public class Hero {
     public String getCurrentProfile() {
         return currentProfile;
     }
-
-    public void setCurrentProfile(String currentProfile) {
-        this.currentProfile = currentProfile;
-    }
-
-    public String getHeroUp() {
-        return heroUp;
-    }
-
-    public void setHeroUp(String heroUp) {
-        this.heroUp = heroUp;
-    }
-
-    public String getHeroDown() {
-        return heroDown;
-    }
-
-    public void setHeroDown(String heroDown) {
-        this.heroDown = heroDown;
-    }
-
-    public String getHeroRight() {
-        return heroRight;
-    }
-
-    public void setHeroRight(String heroRight) {
-        this.heroRight = heroRight;
-    }
-
-    public String getHeroLeft() {
-        return heroLeft;
-    }
-
-    public void setHeroLeft(String heroLeft) {
-        this.heroLeft = heroLeft;
-    }
 }
-*/
