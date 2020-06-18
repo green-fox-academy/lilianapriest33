@@ -36,28 +36,26 @@ public class Pirate {
     }
 
     public void work() {
-        if(this.isCaptain){
+        if (this.isCaptain) {
             this.goldAmount += 10;
             this.healthPoints -= 5;
-        }
-        else {
+        } else {
             this.goldAmount++;
             this.healthPoints--;
         }
     }
 
     public void party() {
-        if(this.isCaptain){
+        if (this.isCaptain) {
             this.healthPoints += 10;
-        }
-        else {
+        } else {
             this.healthPoints++;
         }
     }
 
     @Override
     public String toString() {
-        if(this.hasWoodenLeg) {
+        if (this.hasWoodenLeg) {
             return "Hello, I'm " + this.name + ". I have a wooden leg and " + this.goldAmount + " golds.";
         } else {
             return "Hello, I'm " + this.name + ". I still have my real legs and " + this.goldAmount + " golds.";
