@@ -3,8 +3,6 @@ package NewGardenExercise;
 public class Tree extends Plant{
     public Tree(String color) {
         super(color);
-        this.waterNeed = 10;
-        this.waterAbsorption = 0.40;
     }
 
     @Override

@@ -9,7 +9,6 @@ public class Plant {
 
     public Plant(String color) {
         this.color = color;
-        this.waterAmount = 0;
     }
 
     public String getColor() {
@@ -40,7 +39,7 @@ public class Plant {
     }
 
     public String getName() {
-        return "The "+this.getColor()+" "+this.getType()+this.getNeedswater();
+        return "The " + this.getColor() + " " + this.getType() + this.getNeedswater();
     }
 
     public void water(int amount) {
