@@ -6,13 +6,6 @@ public class Animal {
     protected boolean isHealthy;
     protected Integer healCost;
 
-    public Animal() {
-        this.name = name;
-        this.ownerName = ownerName;
-        this.isHealthy = false;
-        this.healCost = healCost;
-    }
-
     public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
     }
