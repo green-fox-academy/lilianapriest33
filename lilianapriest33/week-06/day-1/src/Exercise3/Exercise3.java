@@ -10,7 +10,7 @@ public class Exercise3 {
         List<Integer> numbers = Arrays.asList(3, 9, 2, 8, 6, 5);
 
         numbers.stream()
-                .map((Integer x) -> (int) Math.pow(x, 2))
+                .map(x -> (int) Math.pow(x, 2))
                 .filter(x -> x > 20)
                 .forEach(System.out::println);
     }
