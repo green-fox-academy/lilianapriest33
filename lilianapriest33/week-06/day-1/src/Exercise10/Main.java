@@ -1,6 +1,7 @@
 package Exercise10;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -21,8 +22,11 @@ public class Main {
                 //.filter(f -> f.getAge() < 5)
                 .forEach(f -> System.out.println(f.getName()));
 
-        Map<Object,Long> frequency = Stream.of(foxes)
-                .collect(Collectors.groupingBy(f -> f,
-                        Collectors.counting()));
+        Map<Object, Long> FoxFrequency = foxes.stream()
+                .collect(Collectors.groupingBy(fox -> fox.getColor(), Collectors.counting()));
+
+        System.out.println(FoxFrequency);
+
+
     }
 }
