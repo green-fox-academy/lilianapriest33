@@ -1,0 +1,81 @@
+body {
+    background-color: #e8e8e8;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    max-width: 330px;
+    min-width: 330px;
+    height: 320px;
+    background-color: white;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-left: 50px;
+    border-radius: 4px;
+}
+    
+h1 { 
+    font-weight: 400;
+    font-size: 20px;
+}
+
+label{
+    display: block;
+}
+
+.form-title {
+    font-size: 9px;
+    margin-top: 20px;
+    }
+
+.field {
+    margin-top: 5px;
+    margin-bottom: 0px; 
+    height: 33px;
+    width: 270px;
+    color: lightgrey;
+}
+
+#forgot {
+    border: 0px;
+    background-color: white;
+    font-size: 9px;
+    margin-left: 195px;
+    width: 90px;
+    
+}
+
+#login {
+    margin-top: 40px;
+    width: 100px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+#icon {
+    width: 20px;
+    height: 20px;
+    margin-left: -33px;
+    margin-bottom: -7px;
+}
+
+.field:focus {
+    outline: none ;
+    border:1px solid rgb(5, 182, 5);
+} 
+#login:focus {
+    outline: none ;
+}
+
+#forgot:focus {
+    outline: none;
+}
+
+#eye:focus {
+    outline: none;
+}
